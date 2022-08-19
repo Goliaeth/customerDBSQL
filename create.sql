@@ -1,10 +1,11 @@
-CREATE DATABASE CustomerLib_DB
-CREATE SCHEMA s1
+CREATE DATABASE [CustomerLib_DB]
+GO
 
---DROP TABLE [CustomerLib_DB].[s1].[Addresses]
---DROP TABLE [CustomerLib_DB].[s1].[Customers]
---DROP TABLE [CustomerLib_DB].[s1].[Notes]
---TRUNCATE TABLE [CustomerLib_DB].[s1].[Customers]
+USE [CustomerLib_DB]
+GO
+
+CREATE SCHEMA [s1]
+GO
 
 CREATE TABLE [CustomerLib_DB].[s1].[Customers]
 (

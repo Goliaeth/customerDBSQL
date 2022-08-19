@@ -1,3 +1,6 @@
+USE [CustomerLib_DB]
+GO
+
 --Valid cases
 INSERT INTO [CustomerLib_DB].[s1].[Customers] (FirstName, LastName, PhoneNumber, Email, TotalPurchasesAmount)
 VALUES
@@ -6,7 +9,6 @@ VALUES
 INSERT INTO [CustomerLib_DB].[s1].[Notes] (CustomerID, NoteText)
 VALUES
 (1, 'Note 1')
-
 
 INSERT INTO [CustomerLib_DB].[s1].[Addresses] (CustomerID, AddressLine, AddressLine2, AddressType, City, Country, PostalCode, State)
 VALUES
